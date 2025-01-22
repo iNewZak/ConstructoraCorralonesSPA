@@ -10,9 +10,9 @@
 }
 
 .titulo {
-    color: black;
-    padding: 60px;
-    justify-content: center;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .color1 {
@@ -20,11 +20,82 @@
 }
 
 .letra {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .letra1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 90px;
+}
+
+.padi {
+    margin-bottom: 20px;
+}
+
+.padi {
+    margin-bottom: 20px;
+}
+
+.padi2 {
+    padding-bottom: 100px;
+}
+
+.padi3 {
+    padding: 200px;
+}
+
+.color2 {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+
+    .diagonal_text {
+        font-family: 'Times New Roman', Times, serif;
+        position: static;
+        display: inline-block;
+        color: #333;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+
+    .diagonal_text2 {
+        font-family: 'Times New Roman', Times, serif;
+        position: static;
+        display: inline-block;
+        color: #333;
+        margin-top: 1px;
+    }
+
+    .diagonal_text:hover {
+        transform: rotate(0deg);
+    }
+
+    .diagonal_text2:hover {
+        transform: rotate(0deg);
+    }
+
+    .titulo {
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .letra {
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .letra1 {
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .padi2 {
+        padding-bottom: 50px;
+    }
+
+    .padi3 {
+        padding: 100px;
+    }
 }
