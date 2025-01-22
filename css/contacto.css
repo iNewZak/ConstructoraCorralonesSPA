@@ -2,14 +2,3 @@ div#map {
     height: 100%;
     width: 100%;
 }
-
-.navbar {
-    border-bottom: 2px solid #ddd;
-}
-
-.bordes {
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 30px;
-}

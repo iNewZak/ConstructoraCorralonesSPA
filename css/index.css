@@ -2,13 +2,6 @@
     border-bottom: 2px solid #ddd;
 }
 
-.bordes {
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-
 .fondo {
     background-size: cover;
     background-position: center;
