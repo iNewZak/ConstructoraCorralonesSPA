@@ -1,58 +1,26 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #181818;
-    color: #ECF0F1;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    background-color: #F5F5F5 !important;
 }
 
 header {
-    background-color: #2C3E50 ;
-    color: #ECF0F1;
-    font-family: Arial, sans-serif;
-    text-align: end;
-    position: relative;
-    z-index: 1;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header,
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 footer {
     background-color: #34495E;
-    font-family: Arial, sans-serif;
-    color: #ECF0F1;
+    color: #ECF0F1 !important;
     margin-top: auto;
     padding: 10px 0;
 }
 
-
-.color {
-    color: #FFFFFF;
-}
-
-.bordes {
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-
-.full_center {
-    align-content: center
-}
-
-.navbar-nav .nav-link {
-    color: white;
-}
-
-.navbar-nav .nav-link:hover {
-    color: white;
+footer p {
+    color: #ECF0F1 !important;
 }
 
 .whatsapp-button {
@@ -74,27 +42,34 @@ footer {
     transform: scale(1.1);
 }
 
-.blurred-background {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: #ffffff3f;
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+.logofooter {
+    height: auto !important;
+    width: 100% !important;
 }
 
-.blurred-background2 {
-    background-color: #ffffff3f;
-    backdrop-filter: blur(2px);
-    color: white;
+a {
+    text-decoration: none !important;
 }
 
-.subtitulo {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    color: #E07A5F !important;
+    font-weight: 700 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 10px !important;
+}
+
+p {
+    color: #333333 !important;
 }
