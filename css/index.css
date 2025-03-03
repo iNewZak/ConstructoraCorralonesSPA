@@ -42,4 +42,14 @@ h1 {
     width: 100%;
 }
 
+.beneficios .card {
+    background-color: #34495E !important;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.beneficios .card p {
+    color: #ECF0F1 !important;
+}
+
 @media (max-width: 768px) {}
