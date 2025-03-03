@@ -1,18 +1,32 @@
-.titulo {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.titulo1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-size: 30px;
-    margin-left: 10%;
-    font-weight: bold;
-}
-
-li {
+.infojefes li {
     padding: 5px;
+}
+
+.derecha {
+    margin-left: 10%;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+}
+
+.backcolor {
+    background-color: #34495E;
+    border-radius: 20px;
+}
+
+.valores p {
+    color: #ECF0F1 !important;
+}
+
+@media (max-width: 768px) {
+    .derecha {
+        margin-left: 0%;
+    }
+
+    .infojefes li {
+        padding: 5px;
+        font-size: 12px;
+    }
 }

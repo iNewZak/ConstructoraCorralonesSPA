@@ -37,4 +37,9 @@ h1 {
     margin-left: 10%;
 }
 
+.logo {
+    height: auto;
+    width: 100%;
+}
+
 @media (max-width: 768px) {}
